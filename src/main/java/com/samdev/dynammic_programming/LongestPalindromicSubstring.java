@@ -13,7 +13,6 @@ public class LongestPalindromicSubstring {
     //substring
     // in s.
     //Example 1:
-
     //Input: s = "babad"
     //Output: "bab"
     //Explanation: "aba" is also a valid answer.
@@ -61,10 +60,6 @@ public class LongestPalindromicSubstring {
         }
 
         return s.substring(start, start+maxLength);
-    }
-
-    public static void main(String[] args) {
-         // Output: "bb"
     }
 
 }
